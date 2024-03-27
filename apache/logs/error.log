@@ -19,3 +19,51 @@
 [Tue Mar 26 14:15:17.247404 2024] [ssl:warn] [pid 6988:tid 352] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Tue Mar 26 14:15:17.292842 2024] [ssl:warn] [pid 6988:tid 352] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Tue Mar 26 14:15:17.337932 2024] [mpm_winnt:notice] [pid 6988:tid 352] AH00354: Child: Starting 150 worker threads.
+[Tue Mar 26 15:04:29.034047 2024] [ssl:warn] [pid 16828:tid 192] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 26 15:04:29.100547 2024] [core:warn] [pid 16828:tid 192] AH00098: pid file E:/New folder/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Mar 26 15:04:29.105563 2024] [ssl:warn] [pid 16828:tid 192] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 26 15:04:29.295204 2024] [mpm_winnt:notice] [pid 16828:tid 192] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Tue Mar 26 15:04:29.295204 2024] [mpm_winnt:notice] [pid 16828:tid 192] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Tue Mar 26 15:04:29.295204 2024] [core:notice] [pid 16828:tid 192] AH00094: Command line: 'e:\\new folder\\apache\\bin\\httpd.exe -d E:/New folder/apache'
+[Tue Mar 26 15:04:29.300628 2024] [mpm_winnt:notice] [pid 16828:tid 192] AH00418: Parent: Created child process 9092
+[Tue Mar 26 15:04:29.921539 2024] [ssl:warn] [pid 9092:tid 360] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 26 15:04:29.975972 2024] [ssl:warn] [pid 9092:tid 360] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 26 15:04:30.044576 2024] [mpm_winnt:notice] [pid 9092:tid 360] AH00354: Child: Starting 150 worker threads.
+[Tue Mar 26 15:52:34.654624 2024] [php:error] [pid 9092:tid 1780] [client ::1:65021] PHP Parse error:  syntax error, unexpected identifier "Title" in E:\\New folder\\htdocs\\newone\\htmlcss\\index.php on line 4
+[Tue Mar 26 15:52:43.763379 2024] [php:error] [pid 9092:tid 1900] [client ::1:65022] PHP Parse error:  syntax error, unexpected identifier "Title" in E:\\New folder\\htdocs\\newone\\htmlcss\\index.php on line 4
+[Tue Mar 26 15:53:10.720819 2024] [php:error] [pid 9092:tid 1780] [client ::1:65026] PHP Parse error:  syntax error, unexpected identifier "Title" in E:\\New folder\\htdocs\\newone\\htmlcss\\index.php on line 4
+[Tue Mar 26 15:53:18.278353 2024] [php:error] [pid 9092:tid 1900] [client ::1:65033] PHP Parse error:  syntax error, unexpected identifier "Title" in E:\\New folder\\htdocs\\newone\\htmlcss\\index.php on line 4
+[Tue Mar 26 15:53:24.555839 2024] [php:error] [pid 9092:tid 1780] [client ::1:65034] PHP Parse error:  syntax error, unexpected identifier "Title" in E:\\New folder\\htdocs\\newone\\htmlcss\\index.php on line 4
+[Tue Mar 26 15:53:39.111344 2024] [php:error] [pid 9092:tid 1780] [client ::1:65083] PHP Parse error:  syntax error, unexpected identifier "Title" in E:\\New folder\\htdocs\\newone\\htmlcss\\index.php on line 4
+[Tue Mar 26 15:53:59.555803 2024] [php:error] [pid 9092:tid 1780] [client 127.0.0.1:65117] PHP Parse error:  syntax error, unexpected identifier "Title" in E:\\New folder\\htdocs\\newone\\htmlcss\\index.php on line 4
+[Tue Mar 26 15:54:52.379361 2024] [php:error] [pid 9092:tid 1780] [client 127.0.0.1:65132] PHP Parse error:  syntax error, unexpected identifier "Title" in E:\\New folder\\htdocs\\harry\\htmlcss\\index.php on line 4
+[Tue Mar 26 15:54:56.523712 2024] [php:error] [pid 9092:tid 1780] [client 127.0.0.1:65132] PHP Parse error:  syntax error, unexpected identifier "Title" in E:\\New folder\\htdocs\\harry\\htmlcss\\index.php on line 4
+[Tue Mar 26 15:55:21.774253 2024] [php:error] [pid 9092:tid 1780] [client 127.0.0.1:65133] PHP Parse error:  syntax error, unexpected identifier "Title" in E:\\New folder\\htdocs\\harry\\htmlcss\\index.php on line 4
+[Tue Mar 26 15:56:48.220430 2024] [php:error] [pid 9092:tid 1780] [client 127.0.0.1:65224] PHP Parse error:  syntax error, unexpected identifier "Title" in E:\\New folder\\htdocs\\harry\\htmlcss\\index.php on line 4
+[Tue Mar 26 15:58:03.991562 2024] [php:error] [pid 9092:tid 1780] [client 127.0.0.1:65259] PHP Parse error:  syntax error, unexpected identifier "Title" in E:\\New folder\\htdocs\\harry\\htmlcss\\index.php on line 4
+[Tue Mar 26 16:35:28.870917 2024] [php:error] [pid 9092:tid 1896] [client 127.0.0.1:49953] PHP Parse error:  syntax error, unexpected token "," in E:\\New folder\\htdocs\\phpstart\\datatype.php on line 5
+[Tue Mar 26 16:35:37.816925 2024] [php:error] [pid 9092:tid 1896] [client 127.0.0.1:49956] PHP Parse error:  syntax error, unexpected token "," in E:\\New folder\\htdocs\\phpstart\\datatype.php on line 5
+[Tue Mar 26 16:35:38.829976 2024] [php:error] [pid 9092:tid 1896] [client 127.0.0.1:49956] PHP Parse error:  syntax error, unexpected token "," in E:\\New folder\\htdocs\\phpstart\\datatype.php on line 5
+[Tue Mar 26 16:35:39.489966 2024] [php:error] [pid 9092:tid 1896] [client 127.0.0.1:49956] PHP Parse error:  syntax error, unexpected token "," in E:\\New folder\\htdocs\\phpstart\\datatype.php on line 5
+[Tue Mar 26 16:35:39.784433 2024] [php:error] [pid 9092:tid 1896] [client 127.0.0.1:49956] PHP Parse error:  syntax error, unexpected token "," in E:\\New folder\\htdocs\\phpstart\\datatype.php on line 5
+[Tue Mar 26 16:35:54.894303 2024] [php:error] [pid 9092:tid 1896] [client 127.0.0.1:49959] PHP Parse error:  syntax error, unexpected token "," in E:\\New folder\\htdocs\\phpstart\\datatype.php on line 5
+[Tue Mar 26 16:35:55.563123 2024] [php:error] [pid 9092:tid 1896] [client 127.0.0.1:49959] PHP Parse error:  syntax error, unexpected token "," in E:\\New folder\\htdocs\\phpstart\\datatype.php on line 5
+[Tue Mar 26 16:35:56.095444 2024] [php:error] [pid 9092:tid 1896] [client 127.0.0.1:49959] PHP Parse error:  syntax error, unexpected token "," in E:\\New folder\\htdocs\\phpstart\\datatype.php on line 5
+[Tue Mar 26 16:36:22.056422 2024] [php:error] [pid 9092:tid 1896] [client 127.0.0.1:49964] PHP Parse error:  syntax error, unexpected token "," in E:\\New folder\\htdocs\\phpstart\\datatype.php on line 5
+[Tue Mar 26 16:36:49.707771 2024] [php:warn] [pid 9092:tid 1896] [client 127.0.0.1:49971] PHP Warning:  Array to string conversion in E:\\New folder\\htdocs\\phpstart\\datatype.php on line 9
+[Tue Mar 26 16:36:51.758890 2024] [php:warn] [pid 9092:tid 1896] [client 127.0.0.1:49971] PHP Warning:  Array to string conversion in E:\\New folder\\htdocs\\phpstart\\datatype.php on line 9
+[Tue Mar 26 16:37:29.315278 2024] [php:warn] [pid 9092:tid 1896] [client 127.0.0.1:49986] PHP Warning:  Array to string conversion in E:\\New folder\\htdocs\\phpstart\\datatype.php on line 9
+[Tue Mar 26 16:37:31.139149 2024] [php:warn] [pid 9092:tid 1896] [client 127.0.0.1:49986] PHP Warning:  Array to string conversion in E:\\New folder\\htdocs\\phpstart\\datatype.php on line 9
+[Tue Mar 26 16:41:56.689479 2024] [php:error] [pid 9092:tid 1896] [client 127.0.0.1:50031] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in E:\\New folder\\htdocs\\phpstart\\datatype.php on line 10
+[Tue Mar 26 16:41:57.083422 2024] [php:error] [pid 9092:tid 1896] [client 127.0.0.1:50031] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in E:\\New folder\\htdocs\\phpstart\\datatype.php on line 10
+[Tue Mar 26 16:41:58.250856 2024] [php:error] [pid 9092:tid 1896] [client 127.0.0.1:50031] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in E:\\New folder\\htdocs\\phpstart\\datatype.php on line 10
+[Wed Mar 27 18:20:00.888413 2024] [ssl:warn] [pid 10400:tid 384] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 27 18:20:00.949288 2024] [core:warn] [pid 10400:tid 384] AH00098: pid file E:/New folder/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 27 18:20:00.958572 2024] [ssl:warn] [pid 10400:tid 384] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 27 18:20:01.793632 2024] [mpm_winnt:notice] [pid 10400:tid 384] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Wed Mar 27 18:20:01.793632 2024] [mpm_winnt:notice] [pid 10400:tid 384] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Wed Mar 27 18:20:01.793632 2024] [core:notice] [pid 10400:tid 384] AH00094: Command line: 'e:\\new folder\\apache\\bin\\httpd.exe -d E:/New folder/apache'
+[Wed Mar 27 18:20:01.803705 2024] [mpm_winnt:notice] [pid 10400:tid 384] AH00418: Parent: Created child process 15624
+[Wed Mar 27 18:20:02.288791 2024] [ssl:warn] [pid 15624:tid 372] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 27 18:20:02.338534 2024] [ssl:warn] [pid 15624:tid 372] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 27 18:20:02.390882 2024] [mpm_winnt:notice] [pid 15624:tid 372] AH00354: Child: Starting 150 worker threads.
